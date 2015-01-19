@@ -34,7 +34,7 @@
 					<port>9999</port>
 					<username>admin</username>
 					<password>P@ssw0rd</password>
-					<filename>target/HelloWorld-Git-JBoss.war</filename>
+					<filename>HelloWorld-Git-JBoss.war</filename>
 					<name>HelloWorld-Git-JBoss</name>
 				</configuration>
 				<executions>
