@@ -20,7 +20,14 @@
 			<version>2.5</version>
 		</dependency>
 	</dependencies>
-	<build>
+	 <build>
+        <plugins>
+            <plugin>
+                <groupId>org.jboss.as.plugins</groupId>
+                <artifactId>jboss-as-maven-plugin</artifactId>
+                <version>7.6.Final</version>
+            </plugin>
+        </plugins>
 		<finalName>HelloWorld</finalName>
 	</build>
 </project>
