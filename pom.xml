@@ -34,7 +34,15 @@
 						<phase>install</phase>
 						<goals>
 							<goal>deploy</goal>
-						</goals>						
+						</goals>
+						<configuration>
+							<hostname>10.1.3.252</hostname>
+							<port>18080</port>
+							<username>admin</username>
+							<password>P@ssw0rd</password>
+							<filename>target/HelloWorldJboss-0.0.1-SNAPSHOT.war</filename>
+							<name>HelloWorldJboss</name>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
