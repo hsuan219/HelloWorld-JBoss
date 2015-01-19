@@ -35,6 +35,7 @@
 					<username>admin</username>
 					<password>P@ssw0rd</password>
 					<filename>HelloWorld-Git-JBoss.war</filename>
+					<name>HelloWorld-Git</name>
 				</configuration>
 				<executions>
 					<execution>
