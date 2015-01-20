@@ -15,8 +15,9 @@
 		</dependency>
 	</dependencies>
 	<build>
-	<!-- 
+	
 		<plugins>
+		<!-- 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -26,10 +27,12 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+			-->	
 			<plugin>
 				<groupId>org.jboss.as.plugins</groupId>
 				<artifactId>jboss-as-maven-plugin</artifactId>
 				<version>7.6.Final</version>
+				<!--  
 				<configuration>
 					<hostname>10.1.3.252</hostname>
 					<port>19999</port>
@@ -37,6 +40,7 @@
 					<password>P@ssw0rd</password>
 					<filename>HelloWorld-Git-JBoss.war</filename>
 				</configuration>
+				-->
 				<executions>
 					<execution>
 						<phase>install</phase>
@@ -47,7 +51,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-	 -->	
+	 
 		<finalName>HelloWorld-Git-JBoss</finalName>
 	</build>
 </project>
