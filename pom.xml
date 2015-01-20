@@ -15,7 +15,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<!-- 
+		 
 		<plugins>
 		 
 			<plugin>
@@ -51,7 +51,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-	 	 -->
+	 	
 		<finalName>HelloWorld-Git-JBoss</finalName>
 	</build>
 </project>
